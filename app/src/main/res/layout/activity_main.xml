@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CRUD SQLite"
+        android:gravity="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/CODIGO1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:background="@android:color/background_light"
+        android:hint="escribe el codigo "
+        android:inputType="textAutoComplete"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="160dp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo"
+        android:gravity="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/CARRERA"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:background="@android:color/background_light"
+        android:hint="escribe el carrera "
+        android:inputType="textAutoComplete"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="160dp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Carrera"
+        android:gravity="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+    <EditText
+        android:id="@+id/nOMBRE1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:ems="10"
+        android:background="@android:color/background_light"
+        android:hint="escribe el nombre "
+        android:inputType="textAutoComplete"
+        android:textColor="#000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="160dp" />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:gravity="center"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:textStyle="bold"
+        android:textColor="#000"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <Button
+            android:id="@+id/aregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClick"
+            android:text="agregar"
+
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
